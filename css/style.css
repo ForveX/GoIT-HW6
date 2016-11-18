@@ -98,15 +98,18 @@
 	margin-left: 5px;
 	border-right: 1px solid #fff;
 	padding: 3px;
+	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .signup {
 	width: 72px;
+	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .restorepwd {
 	width: 95px;
 	margin-left: 15px;
+	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .site-nav {
@@ -153,6 +156,7 @@
 	display: inline-block;
 	padding: 0 16px;
 	text-align: center;
+	font-family: 'Lucida Sans Unicode', sans-serif;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -288,12 +292,18 @@
 
 .list-header {
 	display: inline-block;
-	width: 150px;
+	width: 183px;
 	height: 28px;
 	background-color: white;
 	border: 1px solid #79878d;
 	margin-top: 10px;
 	border-radius: 15px;
+}
+
+.spec_links:hover {
+	font-weight: 900;
+	text-decoration: underline;
+	font-style: italic;
 }
 
 .marker-outher {
@@ -344,7 +354,7 @@
 .tireexample {
 	content: "";
 	float: left;
-	left: 73%;
+	left: 74%;
 	overflow: hidden;
 	position: relative;
 	width: 58%;
@@ -385,7 +395,11 @@
 	margin-top: 20px;
 }
 
-.brands-block>form>label {
+.brands-list_item {
+	margin-left: 30px;
+}
+
+.brands-list_lbl {
 	color: #465961;
 	font-family: "Lucida Sans Unicode", sans-serif;
 	font-size: 13px;
