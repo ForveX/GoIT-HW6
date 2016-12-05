@@ -90,25 +90,26 @@
 .login a {
 	color: #fff;
 	line-height: 25px;
-	font-size: 12px;
+	font-size: 9px;
 }
 
 .signin {
 	width: 30px;
 	margin-left: 5px;
-	border-right: 1px solid #fff;
 	padding: 3px;
 	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
 .signup {
 	width: 72px;
-	font-family: 'Lucida Sans Unicode', sans-serif;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    border-left: 1px solid #fff;
+    padding-left: 5px;
 }
 
 .restorepwd {
 	width: 95px;
-	margin-left: 15px;
+	margin-left: 45px;
 	font-family: 'Lucida Sans Unicode', sans-serif;
 }
 
@@ -191,6 +192,7 @@
 
 .basket div.summary {
 	width: 56px;
+  margin-left: 15px;
 }
 
 .basket div.spec {
@@ -504,5 +506,6 @@ footer {
 	height: 35px;
 	background:linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
 	border-radius: 15px;
+	border-style: none;
 	color: white;
 }
